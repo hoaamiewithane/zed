@@ -33,10 +33,20 @@
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
-      "ctrl-k": "workspace::ActivatePaneUp",
-      "ctrl-j": "workspace::ActivatePaneDown",
-      "t l": "pane::ActivateNextItem",
-      "t h": "pane::ActivatePreviousItem"
+      "ctrl-k": "pane::ActivatePreviousItem",
+      "ctrl-j": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "Editor && !menu",
+    "bindings": {
+      "ctrl-c": "editor::Copy", // vim default: return to normal mode
+      "ctrl-x": "editor::Cut", // vim default: decrement
+      // "ctrl-v": "editor::Paste", // vim default: visual block mode
+      // "ctrl-y": "editor::Undo", // vim default: line up
+      "ctrl-f": "buffer_search::Deploy" // vim default: page down
+      // "ctrl-o": "workspace::Open", // vim default: go back
+      // "ctrl-a": "editor::SelectAll" // vim default: increment
     }
   },
   {
