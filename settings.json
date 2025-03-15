@@ -30,7 +30,7 @@
     "dark": "One Dark"
   },
   "relative_line_numbers": true,
-  "cursor_blink": false,
+  "cursor_blink": true,
   "scrollbar": { "show": "never" },
   "vertical_scroll_margin": 0,
   "contenxt": "Editor",
